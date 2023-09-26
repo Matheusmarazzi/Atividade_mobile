@@ -11,6 +11,7 @@ export default function App(){
             <Link style={styles.Link} href="/Count_people">Count</Link>
             <Link style={styles.Link} href="/Gas">Gas</Link>
             <Link style={styles.Link} href="/Profile">Profile</Link>
+            <Link style={styles.Link} href="/Game">Game</Link>
             <Text style={[styles.Text, {paddingTop: '50%'} ]}>By Jorge Lucas and Matheus Marazzi</Text>
         </View>
     )
