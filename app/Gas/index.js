@@ -1,6 +1,6 @@
-import { StatusBar } from 'expo-status-bar';
+
 import { useEffect, useState } from 'react';
-import { Text, View, TextInput, Image } from 'react-native';
+import { Text, View, TextInput, Image, StatusBar } from 'react-native';
 import styles from './style'
 
 export default function Gas() {
@@ -22,6 +22,7 @@ export default function Gas() {
   }, [alc, gas])
   return (
     <View style={styles.container}>
+      <StatusBar backgroundColor={"#171715"} />
       <Text style={styles.title}>Gasolina vs Alcool</Text>
       <Image style={styles.image} source={{uri:image}} />
       <TextInput style={styles.input} onChangeText={setGas} placeholder='Digite o valor da gasolina'/>

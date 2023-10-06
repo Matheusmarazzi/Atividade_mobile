@@ -1,6 +1,6 @@
-import { StatusBar } from 'expo-status-bar';
+
 import { useEffect, useState } from 'react';
-import { Text, TextInput, View } from 'react-native';
+import { Text, TextInput, View, StatusBar } from 'react-native';
 import styles from './style';
 import {Link} from 'expo-router';
 
@@ -18,6 +18,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+      <StatusBar backgroundColor={"#171715"} />
       <Text style={styles.title}>Multiplicador de números</Text>
       <TextInput style={styles.input} onChangeText={setVal1} placeholder='Digite o 1° número'/>
       <Text style={{fontSize:30, color:'white'}}>X</Text>

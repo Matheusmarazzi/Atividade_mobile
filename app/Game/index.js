@@ -1,4 +1,4 @@
-import { View, Text, Image } from "react-native";
+import { View, Text, Image, StatusBar } from "react-native";
 import styles from "./style";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import { useState } from "react";
@@ -15,6 +15,7 @@ export default function Game(){
     }
     return(
         <View style={styles.container}>
+            <StatusBar backgroundColor={"#171715"} />
             <Text style={styles.title}>Jogo do N° Aleatório</Text>
             <Image style={styles.img} source={{uri:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxxSXd7kzs31YIzpZ5gfLB_vJ5ogDD_Dm2duo77SIhbnB2WdxzSYQwwPUBYyyHvvws5mI&usqp=CAU"}}/>
             <Text style={styles.text}>Pense em um N° de 0 a 10</Text>

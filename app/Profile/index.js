@@ -1,11 +1,12 @@
 
-import {  Text, SafeAreaView, Image } from 'react-native';
+import {  Text, SafeAreaView, Image, StatusBar } from 'react-native';
 import styles from "./style";
 
 
 function Profile() {
   return (
     <SafeAreaView style={styles.container}>
+      <StatusBar backgroundColor={"#171715"} />
         <Image style={styles.photo} source={{
           uri:'https://sm.ign.com/ign_br/screenshot/default/black-clover-asta-dark-1131959-1280x0_6mt7.jpg'
         }}/>

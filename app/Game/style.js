@@ -5,7 +5,7 @@ export default styles = StyleSheet.create({
         flex:1,
         alignItems: 'center',
         backgroundColor:'#171515',
-        paddingTop:'10%'
+        paddingTop:'10%',
       },
       title:{
         fontSize: 30,
@@ -32,6 +32,7 @@ export default styles = StyleSheet.create({
 
     }, 
     point:{
+        backgroundColor:'#171515',
         flexDirection:'row',
         width: "100%",
         justifyContent: 'space-between'

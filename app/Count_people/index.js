@@ -1,6 +1,6 @@
-import { StatusBar } from 'expo-status-bar';
+
 import { useState } from 'react';
-import { SafeAreaView, Text, TouchableOpacity,View } from 'react-native';
+import { SafeAreaView, Text, TouchableOpacity,View, StatusBar } from 'react-native';
 import styles from "./style";
 
 export default function Count_people() {

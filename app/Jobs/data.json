@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": "Vaga de Desenvolvedor WEB",
+        "salario": "R$ 5000,00",
+        "descricao" : "2 anos de experiencia",
+        "contato" : "13 18821-1687"
+    },
+    {
+        "id": 2,
+        "title": "Vaga de Desenvolvedor JAVA",
+        "salario": "R$ 2,555",
+        "descricao" : "1,5 anos de experiencia",
+        "contato" : "13 18821-1687"
+    },
+    {
+        "id": 3,
+        "title": "Vaga de Desenvolvedor Mobile",
+        "salario": "R$ 15.000,00",
+        "descricao" : "5 anos de experiencia",
+        "contato" : "13 18821-1687"
+    },
+    {
+        "id": 4,
+        "title": "Vaga de Desenvolvedor React",
+        "salario": "R$ 3000,00",
+        "descricao" : "1 anos de experiencia",
+        "contato" : "13 18821-1687"
+    },
+    {
+        "id": 5,
+        "title": "Vaga de Desenvolvedor WEB",
+        "salario": "5000",
+        "descricao" : "2 anos de experiencia",
+        "contato" : "13 18821-1687"
+    }
+]
